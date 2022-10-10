@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEFDC8CB-0F91-8F65-C3D3-37FE15C4FB30" name="T PR END REST">
+<createdBy>prisc</createdBy>
+<createdTime>2022-05-18 20:54:02 UTC</createdTime>
+<generatorID>9755814B-F5A0-3CE2-4B5F-A2CCC2C75CB6</generatorID>
+<ownerDesignName>prikkka_data_modeler</ownerDesignName>
+<engineerTo>
+<item key="E72E33A6-2E1D-FEF1-9264-2FE688EECA92" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID ENDERECO" id="63B45D2C-3F64-556E-59D3-DD5375E66B7A">
+<createdBy>prisc</createdBy>
+<createdTime>2022-05-18 20:54:02 UTC</createdTime>
+<generatorID>D7FA4F4A-C647-0716-3011-3CCAADD9E062</generatorID>
+<ownerDesignName>prikkka_data_modeler</ownerDesignName>
+<engineerTo>
+<item key="E72E33A6-2E1D-FEF1-9264-2FE688EECA92" value="true"/>
+</engineerTo>
+<referedAttribute>4931DEEA-4538-2D74-2499-97B17D9B943D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID RESTAURANTE" id="9142CDB7-B5EA-6CEA-EE73-7D7EA6D654B2">
+<createdBy>prisc</createdBy>
+<createdTime>2022-05-18 20:54:02 UTC</createdTime>
+<generatorID>DA11FB97-FD7E-3D07-B0EC-B527CF2AD412</generatorID>
+<ownerDesignName>prikkka_data_modeler</ownerDesignName>
+<engineerTo>
+<item key="E72E33A6-2E1D-FEF1-9264-2FE688EECA92" value="true"/>
+</engineerTo>
+<referedAttribute>263BF5BD-3FE8-1E5F-632A-3F69CAF79500</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT DATA CADASTRO" id="C7C1884A-659D-275B-D75C-76DC9D1CD308">
+<createdBy>kleber.monteiro</createdBy>
+<createdTime>2022-10-10 12:02:33 UTC</createdTime>
+<generatorID>8CBF5502-BAA2-2DBB-F93C-4C44C585F9C8</generatorID>
+<ownerDesignName>prikkka_data_modeler</ownerDesignName>
+<engineerTo>
+<item key="E72E33A6-2E1D-FEF1-9264-2FE688EECA92" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM USUARIO CADASTRO" id="A9689FD3-83DA-1E29-6498-DBFF50858D5E">
+<createdBy>kleber.monteiro</createdBy>
+<createdTime>2022-10-10 12:02:33 UTC</createdTime>
+<generatorID>24EAD61E-06AE-4A08-165C-62EDD61C1C48</generatorID>
+<ownerDesignName>prikkka_data_modeler</ownerDesignName>
+<engineerTo>
+<item key="E72E33A6-2E1D-FEF1-9264-2FE688EECA92" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT DATA ALTERACAO" id="44812253-AAD1-4981-67B2-4F1752E94312">
+<createdBy>kleber.monteiro</createdBy>
+<createdTime>2022-10-10 12:02:33 UTC</createdTime>
+<generatorID>C7209C8A-FC2F-8B8C-4445-9E782B6047F4</generatorID>
+<ownerDesignName>prikkka_data_modeler</ownerDesignName>
+<engineerTo>
+<item key="E72E33A6-2E1D-FEF1-9264-2FE688EECA92" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM USUARIO ALTERACAO" id="8C2CB8AF-C6E7-417F-1748-E45B8374E60A">
+<createdBy>kleber.monteiro</createdBy>
+<createdTime>2022-10-10 12:02:33 UTC</createdTime>
+<generatorID>1E00A890-C0E6-C50F-581F-F077991EB1F9</generatorID>
+<ownerDesignName>prikkka_data_modeler</ownerDesignName>
+<engineerTo>
+<item key="E72E33A6-2E1D-FEF1-9264-2FE688EECA92" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8837C89F-53E0-CA7F-1F1F-AB9D20537FD9" name="PK END REST">
+<createdBy>prisc</createdBy>
+<createdTime>2022-05-18 20:54:02 UTC</createdTime>
+<generatorID>E9CE1376-BAA6-F470-5D96-44BF7AC63C98</generatorID>
+<ownerDesignName>prikkka_data_modeler</ownerDesignName>
+<engineerTo>
+<item key="E72E33A6-2E1D-FEF1-9264-2FE688EECA92" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63B45D2C-3F64-556E-59D3-DD5375E66B7A</attributeRef>
+<attributeRef>9142CDB7-B5EA-6CEA-EE73-7D7EA6D654B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
