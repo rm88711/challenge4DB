@@ -6,8 +6,6 @@
 
  - Kleber Albert de Sousa Monteiro             RM: 88711
 
- - Mikael Candiani Tine                        RM: 85250
-
  - Renato Miranda Esmail                       RM: 86701
 
 O INSERT ESTA NA ULTIMA LINHA DESSE ARQUIVO:
