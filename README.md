@@ -10,6 +10,6 @@
 
  - Renato Miranda Esmail                       RM: 86701
 
---O INSERT ESTA NA ULTIMA LINHA DESSE ARQUIVO
+O INSERT ESTA NA ULTIMA LINHA DESSE ARQUIVO:
 
 O inserts estão no terceiro arquivo nessa entrega , onde as triggers são criadas.
