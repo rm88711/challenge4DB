@@ -1,3 +1,17 @@
+/*
+INTEGRANTES:
+
+Gabriel Sun Gonçalo da Silva                RM: 88316
+
+Kleber Albert de Sousa Monteiro             RM: 88711
+
+Mikael Candiani Tine                        RM: 85250
+
+Renato Miranda Esmail                       RM: 86701
+*/
+
+--
+--
 create or replace package pack_pr_prikka as 
 --
 FUNCTION VALIDA_CPF_CNPJ(V_CPF_CNPJ VARCHAR2) RETURN BOOLEAN;

@@ -17,7 +17,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -33,14 +33,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="D857EE44-16C6-1767-69F9-2ECD7823DAF0" referredColumn="2563A016-72D9-D78C-5EB9-5F773BF265DA"/>
 </associations>
 </Column>
-<Column name="DATA_CADASTRO" id="D8DC16AF-9CE6-9537-88C6-762BCB3A4006">
+<Column name="DT_DATA_CADASTRO" id="D8DC16AF-9CE6-9537-88C6-762BCB3A4006">
 <createdBy>kleber.monteiro</createdBy>
 <createdTime>2022-10-10 11:49:52 UTC</createdTime>
 <ownerDesignName>prikkka_data_modeler</ownerDesignName>
@@ -51,7 +51,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USUARIO_CADASTRO" id="30C95C34-0FCC-AC5E-C074-E8CC3C44A780">
+<Column name="NM_USUARIO_CADASTRO" id="30C95C34-0FCC-AC5E-C074-E8CC3C44A780">
 <createdBy>kleber.monteiro</createdBy>
 <createdTime>2022-10-10 11:50:07 UTC</createdTime>
 <ownerDesignName>prikkka_data_modeler</ownerDesignName>

@@ -46,7 +46,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DATA CADASTRO" id="392EA9E9-600E-E1B3-FA3F-44F76C89D90D">
+<Attribute name="DT DATA CADASTRO" id="392EA9E9-600E-E1B3-FA3F-44F76C89D90D">
 <createdBy>kleber.monteiro</createdBy>
 <createdTime>2022-10-10 12:02:33 UTC</createdTime>
 <generatorID>D8DC16AF-9CE6-9537-88C6-762BCB3A4006</generatorID>
@@ -60,7 +60,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USUARIO CADASTRO" id="58904F42-6F36-16A8-FAAB-F19333796A61">
+<Attribute name="NM USUARIO CADASTRO" id="58904F42-6F36-16A8-FAAB-F19333796A61">
 <createdBy>kleber.monteiro</createdBy>
 <createdTime>2022-10-10 12:02:33 UTC</createdTime>
 <generatorID>30C95C34-0FCC-AC5E-C074-E8CC3C44A780</generatorID>

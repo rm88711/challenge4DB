@@ -115,7 +115,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USUARIO CADASTRO" id="D0E2978A-312C-E597-7263-AE0B402C9E71">
+<Attribute name="NM USUARIO CADASTRO" id="D0E2978A-312C-E597-7263-AE0B402C9E71">
 <createdBy>kleber.monteiro</createdBy>
 <createdTime>2022-10-10 12:02:33 UTC</createdTime>
 <generatorID>96EDA432-6765-ACC0-E3E0-403E912154B6</generatorID>

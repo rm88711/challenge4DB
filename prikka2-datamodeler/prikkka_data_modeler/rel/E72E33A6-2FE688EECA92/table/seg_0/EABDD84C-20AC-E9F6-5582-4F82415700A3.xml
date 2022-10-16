@@ -29,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -96,7 +96,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USUARIO_CADASTRO" id="96EDA432-6765-ACC0-E3E0-403E912154B6">
+<Column name="NM_USUARIO_CADASTRO" id="96EDA432-6765-ACC0-E3E0-403E912154B6">
 <createdBy>kleber.monteiro</createdBy>
 <createdTime>2022-10-10 11:52:29 UTC</createdTime>
 <ownerDesignName>prikkka_data_modeler</ownerDesignName>

@@ -1,3 +1,17 @@
+/*
+INTEGRANTES:
+
+Gabriel Sun Gonçalo da Silva                RM: 88316
+
+Kleber Albert de Sousa Monteiro             RM: 88711
+
+Mikael Candiani Tine                        RM: 85250
+
+Renato Miranda Esmail                       RM: 86701
+*/
+--
+--
+
 -- Gerado por Oracle SQL Developer Data Modeler 22.2.0.165.1149
 --   em:        2022-10-10 09:06:55 BRT
 --   site:      Oracle Database 11g
@@ -73,7 +87,7 @@ CREATE TABLE t_pr_cardapio (
     ds_item_cardapio     VARCHAR2(60) NOT NULL,
     ft_foto              BLOB,
     dt_data_cadastro     DATE,
-    usuario_cadastro     VARCHAR2(50),
+    nm_usuario_cadastro  VARCHAR2(50),
     dt_data_alteracao    DATE,
     nm_usuario_alteracao VARCHAR2(50)
 );
@@ -87,7 +101,7 @@ CREATE TABLE t_pr_carrinho (
     id_endereco          NUMBER(10) NOT NULL,
     id_tp_pagto          NUMBER(10) NOT NULL,
     dt_data_cadastro     DATE,
-    usuario_cadastro     VARCHAR2(50),
+    nm_usuario_cadastro  VARCHAR2(50),
     dt_data_alteracao    DATE,
     nm_usuario_alteracao VARCHAR2(50)
 );
@@ -209,7 +223,7 @@ CREATE TABLE t_pr_restaurante (
     nm_restaurante       VARCHAR2(50) NOT NULL,
     nr_cnpj_rest         VARCHAR2(18) NOT NULL,
     ds_email             VARCHAR2(100) NOT NULL,
-    dt_cadastro          DATE NOT NULL,
+    dt_data_cadastro          DATE NOT NULL,
     nm_usuario_cadastro  VARCHAR2(50),
     dt_data_alteracao    DATE,
     nm_usuario_alteracao VARCHAR2(50)
@@ -220,8 +234,8 @@ ALTER TABLE t_pr_restaurante ADD CONSTRAINT pk_restaurante PRIMARY KEY ( id_rest
 CREATE TABLE t_pr_tel_cliente (
     id_cliente           NUMBER(10) NOT NULL,
     id_telefone          NUMBER(10) NOT NULL,
-    data_cadastro        DATE,
-    usuario_cadastro     VARCHAR2(50),
+    dt_data_cadastro     DATE,
+    nm_usuario_cadastro     VARCHAR2(50),
     dt_data_alteracao    DATE,
     nm_usuario_alteracao VARCHAR2(50)
 );
